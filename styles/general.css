@@ -3,5 +3,6 @@
 }
 
 body {
-    margin-bottom: 2000px;
+    margin: 0;
+    font-family: Roboto, Arial;
 }
