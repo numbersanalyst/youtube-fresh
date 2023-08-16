@@ -34,3 +34,7 @@
 .item:hover {
     background-color: #f2f2f2;
 }
+
+.item:active {
+    background-color: #cfcfcf;
+}
