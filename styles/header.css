@@ -21,9 +21,20 @@ header {
     margin: 0 26px;
 }
 
+.logo {
+    position: relative;
+}
+
 .yt-logo {
     height: 20px;
     width: 90px;
+}
+
+.yt-logo-title {
+    font-size: 12px;
+    position: absolute;
+    top: -4px;
+    right: -100px;
 }
 
 .center-side {
