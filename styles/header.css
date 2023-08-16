@@ -8,7 +8,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 56px;
-    padding: 0px 20px;
+    padding: 0px 22px;
 }
 
 .left-side {
@@ -19,7 +19,8 @@ header {
 .hamburger-icon {
     height: 24px;
     width: 24px;
-    margin-right: 20px;
+    margin-left: 5px;
+    margin-right: 25px;
 }
 
 .yt-logo {
@@ -43,9 +44,9 @@ header {
     height: 38px;
     width: 0;
     flex: 1;
-    max-width: 500px;
+    max-width: 550px;
     outline: none;
-    box-shadow: inset 1px 1px 2px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 1px 1px 5px 1px rgba(0, 0, 0, 0.05);
 }
 
 .search-btn {
@@ -67,6 +68,7 @@ header {
 .upload-icon,
 .notifications-icon {
     width: 24px;
+    height: 24px;
 }
 
 .voice-search-btn {
