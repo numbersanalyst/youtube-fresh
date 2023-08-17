@@ -1,6 +1,7 @@
 .topics {
     white-space: nowrap;
     overflow-x: hidden;
+    margin-bottom: 20px;
 }
 
 .btn {
@@ -25,4 +26,16 @@
 
 .active:hover {
     background-color: black;
+}
+
+.video-grid {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* row-gap: 200px;
+    column-gap: 20px; */
+}
+
+.video {
+    height: 200px;
 }
