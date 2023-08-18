@@ -78,7 +78,7 @@ header {
     height: 24px;
 }
 
-.voice-search-btn {
+.circle-btn {
     width: 40px;
     border-radius: 50%;
     border: none;
@@ -94,7 +94,7 @@ header {
     margin-right: 30px;
 }
 
-.notifications-icon-container {
+.icon-container {
     position: relative;
 }
 
