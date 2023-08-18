@@ -13,12 +13,22 @@ header {
 .left-side {
     display: flex;
     align-items: center;
+    margin-left: 18px;
 }
 
-.hamburger-icon {
-    height: 24px;
-    width: 24px;
-    margin: 0 26px;
+.hamburger-container {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.hamburger-container:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
 }
 
 .logo {
@@ -73,6 +83,11 @@ header {
     margin-right: 20px;
 }
 
+.search-btn:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
 .icon {
     width: 24px;
     height: 24px;
@@ -85,17 +100,33 @@ header {
     background-color: #f2f2f2;
 }
 
+.circle-btn:hover {
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+
 .right-side {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-shrink: 0;
-    width: 120px;
+    width: 140px;
     margin-right: 30px;
 }
 
 .icon-container {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.icon-container:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
 }
 
 .notifications-count {
@@ -112,4 +143,6 @@ header {
 .avatar {
     width: 32px;
     border-radius: 50%;
+    cursor: pointer;
+    margin-left: 20px;
 }
