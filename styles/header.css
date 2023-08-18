@@ -73,10 +73,7 @@ header {
     margin-right: 20px;
 }
 
-.search-icon,
-.voice-search-icon,
-.upload-icon,
-.notifications-icon {
+.icon {
     width: 24px;
     height: 24px;
 }
