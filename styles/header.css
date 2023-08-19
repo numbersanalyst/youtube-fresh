@@ -32,6 +32,10 @@ header {
     cursor: pointer;
 }
 
+.hamburger-container:active {
+    background-color: #c9c9c9;
+}
+
 .logo {
     position: relative;
 }
@@ -89,6 +93,10 @@ header {
     cursor: pointer;
 }
 
+.search-btn:active {
+    background-color: #d9d9d9;
+}
+
 .icon {
     width: 24px;
     height: 24px;
@@ -104,6 +112,10 @@ header {
 .circle-btn:hover {
     background-color: #d9d9d9;
     cursor: pointer;
+}
+
+.circle-btn:active {
+    background-color: #c3c3c3;
 }
 
 .right-side {
@@ -128,6 +140,10 @@ header {
 .icon-container:hover {
     background-color: #e5e5e5;
     cursor: pointer;
+}
+
+.icon-container:active {
+    background-color: #c9c9c9;
 }
 
 .notifications-count {
