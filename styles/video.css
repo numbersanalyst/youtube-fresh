@@ -100,6 +100,10 @@
     margin-bottom: 2px;
 }
 
+.author:hover {
+    color: #0f0f0f;
+}
+
 .stats {
     font-size: 15px;
 }
