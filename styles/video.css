@@ -29,7 +29,7 @@
 }
 
 .video-grid {
-    background-color: aqua;
+    /* background-color: aqua; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     row-gap: 20px;
@@ -37,7 +37,22 @@
 }
 
 .video {
-    background-color: pink;
+    /* background-color: pink; */
+}
+
+.link {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.video:hover {
+    border-radius: none;
+    cursor: pointer;
+    .thumb-row {
+        .thumb{
+            border-radius: 0;
+        }
+    }
 }
 
 .thumb-row {
@@ -48,6 +63,7 @@
     width: 100%;
     border-radius: 14px;
     margin-bottom: 6px;
+    transition: border-radius 0.5s;
 }
 
 .video-time {
