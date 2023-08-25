@@ -46,8 +46,6 @@
 }
 
 .video:hover {
-    border-radius: none;
-    cursor: pointer;
     .thumb-row {
         .thumb{
             border-radius: 0;
