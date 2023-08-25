@@ -93,6 +93,10 @@
     margin-bottom: 5px;
 }
 
+.author-container {
+    position: relative;
+}
+
 .author {
     font-size: 14px;
     margin-bottom: 2px;

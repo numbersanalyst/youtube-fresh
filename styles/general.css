@@ -15,7 +15,6 @@ p {
 
 .tooltip {
     position: absolute;
-    top: 60px;
     color: white;
     background-color: gray;
     font-size: 13px;
@@ -23,14 +22,23 @@ p {
     border-radius: 3px;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.15s;
+    transition: opacity 0.35s;
+}
+
+.tool-pos-bot {
+    bottom: -45px;
+}
+
+.tool-pos-top {
+    top: -40px;
 }
 
 .search-btn:hover,
 .circle-btn:hover,
-.icon-container:hover {
+.icon-container:hover,
+.author-container:hover {
     .tooltip {
-        opacity: 0.7;
+        opacity: 0.9;
     }
 
 }
