@@ -43,3 +43,16 @@ p {
     }
 
 }
+
+main {
+    margin-bottom: 200px; /* fiction space */
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+    font-style: italic;
+}
