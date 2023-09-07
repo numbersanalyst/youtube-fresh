@@ -116,9 +116,16 @@ header {
 }
 
 .topics {
+    position: fixed;
+    z-index: 90;
+    left: 100px;
+    right: 0;
+    top: 56px;
+    background-color: white;
     white-space: nowrap;
     overflow-x: hidden;
     margin-bottom: 20px;
+    padding: 8px 0px;
 }
 
 .btn {
